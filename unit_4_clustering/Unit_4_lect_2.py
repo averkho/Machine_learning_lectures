@@ -6,8 +6,7 @@ Created on Sat Apr 10 10:10:07 2021
 """
 
 import numpy as np
-import matplotlib.pyplot as plt
-plt.close('all')
+
 
 X1=[(-1,2),(-2,1),(-1,0),(-1,1)]
 z1=(-1,1)
@@ -40,3 +39,5 @@ for x in X1:
 dist2=0
 for x in X2:
     dist2+=(eucliduan_distance(x,z2))**2
+    
+
